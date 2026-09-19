@@ -13,7 +13,7 @@ The training corpus is a consolidated collection of **6,192 medical Q&A and inst
 3. `ada_diabetes_5000_instruction.csv`: Standardized guidelines aligned with American Diabetes Association standards.
    
 
-### Preprocessing & Formatting
+## Preprocessing & Formatting
 All entries are unified into a single chat-formatted instruction pipeline following Gemma's turn-based template:
 
 ```text
