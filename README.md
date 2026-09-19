@@ -24,7 +24,7 @@ User Query: {instruction / context}<end_of_turn>
 <start_of_turn>model
 {output}<end_of_turn>
 
-####🏗️ Training Pipeline
+🏗️ **Training Pipeline**
 Data Collection & PreprocessingRaw dataset files are loaded, cleaned, and combined into a tabular structure. Each row's user query is wrapped with a standardized system prompt prepended before tokenization.
 Model Architecture & Key Design Choices
 Base Model: google/gemma-2b-it (Gemma 2B Instruction-Tuned).
