@@ -23,7 +23,7 @@ User Query: {instruction / context}<end_of_turn>
 <start_of_turn>model
 {output}<end_of_turn>
 
-🏗️ Training Pipeline
+##🏗️ Training Pipeline
 Data Collection & Preprocessing
 Raw dataset files are loaded, cleaned, and combined into a tabular structure. Each row's user query is wrapped with a standardized system prompt prepended before tokenization.   
 
@@ -50,7 +50,7 @@ Batch Size & Accumulation: per_device_train_batch_size=1 with gradient_accumulat
 
 Training Epochs & Steps: Trained for 0.1 epochs (78 total steps) to establish rapid convergence without catastrophic forgetting on the base instruction capabilities
 
-🧪 Evaluation
+##🧪 Evaluation
 Method verification was conducted via training loss logging, checkpoint analysis, and validation set inference comparisons against clinical reference standards.
 
 Training Loss Trajectory
@@ -67,7 +67,7 @@ The model achieved its minimal training loss of 0.100576 at step 60.
 Qualitative Output Verification
 Generated outputs were sampled against standard ADA clinical guidelines to confirm accurate advice on blood glucose target ranges, emergency escalation signs (e.g., ketoacidosis), and dietary management.
 
-🔁 Reproduction Steps
+##🔁 Reproduction Steps
 Follow these exact steps in order to reproduce data processing, fine-tuning, and inference from scratch:
 
 1. Environment Setup
@@ -91,7 +91,7 @@ Generate responses and run verification benchmarks against test queries:
 python scripts/evaluate.py
 Alternatively, you can run the step-by-step interactive Google Colab notebook located at notebooks/gemma_2b_diabetes_finetuning.ipynb[cite: 3].
 
-👥 Appendix: Contributors & Mentors
+##👥 Appendix: Contributors & Mentors
 Team Members & Contributors
  — Lead Machine Learning Engineer (Dataset curation, QLoRA pipeline development, model training, and documentation)
 
