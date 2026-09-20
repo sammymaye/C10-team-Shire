@@ -12,7 +12,7 @@ The training corpus is a consolidated collection of **6,192 medical Q&A and inst
 2. `diabetes_instruct_temp_v44.csv`: Contextual instruction-following pairs.
 3. `ada_diabetes_5000_instruction.csv`: Standardized guidelines aligned with American Diabetes Association standards.
    
-`ada_diabetes_5000_instruction.csv' is a large file and is not included in this repository. this file can be accessed at 
+`ada_diabetes_5000_instruction.csv' is a large file and is not included in this repository. This file can be accessed at 
 https://drive.google.com/file/d/1Y-YyH_8A7p1T_GIdk_TqZD6wXdFuvc9y/view?usp=drive_link
 
 ## Preprocessing & Formatting
