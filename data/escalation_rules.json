@@ -1,0 +1,27 @@
+[
+    {
+        "trigger_keywords": [
+            "sweating",
+            "shaking",
+            "confusion",
+            "unconscious",
+            "blood sugar below 70"
+        ],
+        "category": "Severe Hypoglycemia",
+        "action": "Immediate Escalation",
+        "response": "EMERGENCY ALERT: You may be experiencing severe hypoglycemia. Consume 15-20g of fast-acting carbohydrates immediately and seek urgent medical assistance."
+    },
+    {
+        "trigger_keywords": [
+            "fruity breath",
+            "nausea",
+            "vomiting",
+            "high ketones",
+            "blood sugar above 240",
+            "DKA"
+        ],
+        "category": "Diabetic Ketoacidosis (DKA)",
+        "action": "Immediate Escalation",
+        "response": "EMERGENCY ALERT: These symptoms indicate possible Diabetic Ketoacidosis (DKA). Seek emergency medical attention immediately."
+    }
+]
