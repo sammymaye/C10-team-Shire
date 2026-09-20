@@ -85,6 +85,7 @@ Follow these exact steps in order to reproduce data processing, fine-tuning, and
 
 git clone https://github.com/sammymaye/C10-team-Shire.git)
 cd gemma-2b-diabetes-assistant
+
 pip install -r requirements.txt
 
 ### 2. Download and Preprocess Data
