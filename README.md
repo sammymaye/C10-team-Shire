@@ -1,5 +1,5 @@
 # C10-team-Shire
-# Fine-Tuning Gemma-2B for Medical Diabetes Instruction & Q&A 🩺🤖
+# A Domain-Specific Small Language Model for Type 2 Diabetes Self-Management Support
 
 An instruction-tuned language model based on `google/gemma-2b-it`, fine-tuned using **4-bit NF4 Quantization (QLoRA)** and **PEFT** to provide medical instruction responses on diabetes care, guidance, and clinical guidelines.
 
