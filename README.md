@@ -83,7 +83,7 @@ Follow these exact steps in order to reproduce data processing, fine-tuning, and
 
 ### 1. Environment Setup
 
-git clone [https://github.com/YOUR_USERNAME/gemma-2b-diabetes-assistant.git](https://github.com/YOUR_USERNAME/gemma-2b-diabetes-assistant.git)
+git clone https://github.com/sammymaye/C10-team-Shire.git)
 cd gemma-2b-diabetes-assistant
 pip install -r requirements.txt
 
@@ -105,12 +105,18 @@ Generate responses and run verification benchmarks against test queries:
 
 python scripts/evaluate.py
 
-Alternatively, you can run the step-by-step interactive Google Colab notebook located at notebooks/gemma_2b_diabetes_finetuning.ipynb.
+Alternatively, you can run the step-by-step interactive Google Colab notebook located at script/training correct main major Untitled-2 (2).ipynb".
 
 ## 👥 Appendix: Contributors & Mentors
 ### Team Members
 
-Adejumo O. Emmanuel — Lead Machine Learning Engineer (Dataset curation, QLoRA pipeline development, model training, and documentation)
+#### Olorunmaye Samuel Tolulope
+#### Fagbiye Oluwadamilola Isaac
+#### Oluwadamilola Sedara
+#### Levi Nandul
+#### Gideon Addo
+#### Aminu Muhammad
+#### Obiyo, Daniel Chibuikem
 
 Cohort & Mentors
 AI Saturdays Lagos (Cohort 10)
